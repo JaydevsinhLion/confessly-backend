@@ -1,0 +1,9 @@
+Flask==3.0.3
+Flask-Cors==4.0.0
+pymongo==4.8.0
+dnspython==2.6.1          # needed for mongodb+srv URIs
+python-dotenv==1.0.1
+gunicorn==22.0.0          # for production (Render/Railway)
+bcrypt==4.2.0             # password hashing
+PyJWT==2.9.0              # JWT auth
+textblob==0.17.1          # simple sentiment/mood
